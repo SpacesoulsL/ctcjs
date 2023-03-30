@@ -1,0 +1,28 @@
+{
+  "name": "ctcjs",
+  "version": "1.0.4",
+  "description": "阿拉伯数字转中文数字的工具(大小写中文数字)",
+  "main": "./dist/index.cjs.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "数字转中文",
+    "数字转换成中文数字",
+    "数字转换成繁体中文数字",
+    "单位",
+    "转换"
+  ],
+  "author": "spacesouls",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.0",
+    "rollup": "^3.20.2"
+  }
+}
