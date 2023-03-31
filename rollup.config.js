@@ -4,11 +4,6 @@ module.exports =  {
   input: './src/index.js',
   output: [
     {
-      file: 'dist/index.umd.js',
-      name: 'ctcjs',
-      format: 'umd'
-    },
-    {
       file: 'dist/index.es.js',
       format: 'es'
     },

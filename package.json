@@ -1,8 +1,7 @@
 {
   "name": "ctcjs",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "阿拉伯数字转中文数字的工具(大小写中文数字)",
-  "main": "./dist/index.umd.js",
   "exports": {
     ".": {
       "import": "./dist/index.es.js",
@@ -11,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SpacesoulsL/ctcjs"
+    "url": "https://github.com/SpacesoulsL/ctcjs.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,7 +25,6 @@
   "author": "spacesouls",
   "license": "MIT",
   "devDependencies": {
-    "@rollup/plugin-terser": "^0.4.0",
-    "rollup": "^3.20.2"
+
   }
 }
